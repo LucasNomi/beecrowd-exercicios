@@ -1,4 +1,4 @@
-#import <stdio.h>
+#include <stdio.h>
 
 int main(void) {
   double A, B;
@@ -7,5 +7,6 @@ int main(void) {
 
   double MEDIA = ((A * 3.5) + (B * 7.5)) / (3.5 + 7.5);
   printf("MEDIA = %.5lf\n", MEDIA);
+
   return 0;
 }
